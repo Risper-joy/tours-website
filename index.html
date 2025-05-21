@@ -24,20 +24,102 @@
             <img src="Images/cropped-sav-logo2-1-1.webp" alt="Best Safari Logo">
         </div>
         <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-        <div class="nav-links" id="nav-links">
+        <div class="nav-links" id="nav-links"> 
             <a href="index.html">Home</a>
-            <a href="Kenya Safaris.html">Kenya</a>
-            <a href="Tanzania Safaris.html">Tanzania </a>
-            <a href="Uganda.html">Uganda</a>
+            <a href="daytours.html">Daytours</a>
+            <div class="dropdown mega-menu">
+                <a href="Kenya Safaris.html">Kenya</a>
+                <div class="dropdown-content mega-content">
+                    
+                    <div class="mega-column">
+                        <strong>Safaris</strong>
+                        <a href="KBCamping Safaris.html">Budget Camping</a>
+                        <a href="KLSafaris.html">Lodge Safaris</a>
+                        <a href="KASafaris.html">Air Safaris</a>
+                        <a href="KCSafaris.html">Cultural Safaris</a>
+                        <a href="Safari Kisumu.html">Safaris From Kisumu</a>
+                        <a href="BW.html">Birdwatching Safaris</a>
+                        <a href="PS.html">Photographic Safaris</a>
+                    </div>
+                    <div class="mega-column">
+                        <strong>Beach</strong>
+                        <a href="Diani.html">Diani</a>
+                        <a href="Mombasa.html">Mombasa</a>
+                        <a href="Malindi.html">Malindi</a>
+                        <a href="Lamu.html">Lamu</a>
+                        <a href="Kilifi.html">Kilifi</a>
+                        <a href="Watamu.html">Watamu</a>
+                    </div>
+                   <div class="mega-column">
+                        <strong>Mountain Climbing</strong>
+                        <a href="MKClimbing.html">Mount Kenya Climbing</a>
+                        <a href="longonot.html">Mount Longonot Climbing</a>
+                        
+                        <a href="KT.html">Travel Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown mega-menu">
+                <a href="Tanzania Safaris.html">Tanzania</a>
+                <div class="dropdown-content mega-content">
+                    
+                    <div class="mega-column">
+                        <strong>Safaris</strong>
+                        <a href="NTanzania.html">Nothern Tanzania Lodge Safaris</a>
+                        <a href="STanzania.html">Southern Tanzania Lodge Safaris</a>
+                        <a href="NTBudget.html">Nothern Tanzania Budget Camping</a>
+                        <a href="TASafaris.html">Air Safaris</a>
+                        <a href="TCT.html">Cultural Safaris</a>
+                        <a href="TPhotography Safaris.html">Photographic Safaris</a>
+                    </div>
+                    <div class="mega-column">
+                        <strong>Beach</strong>
+                       <a href="TBH.html">Beach Holiday Special</a>
+                    </div>
+                   <div class="mega-column">
+                        <strong>Other</strong>
+                        <a href="TSIT.html">Special InterestTours</a>
+                        <a href="travel info.html">Travel Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown mega-menu">
+                <a href="Uganda.html">Uganda</a>
+                <div class="dropdown-content mega-content">
+                    
+                    <div class="mega-column">
+                        <strong>Safaris</strong>
+                        <a href="UGSAfaris.html">Queen Elizabeth National Park</a>
+                        <a href="UCT.html">Cultural Safaris</a>
+                        
+                    </div>
+                    <div class="mega-column">
+                        <strong>Water Activities in The Nile</strong>
+                       <a href="Nile.html">Rafting in the Nile</a>
+                    </div>
+                   <div class="mega-column">
+                        <strong>Gorilla Trekking</strong>
+                        <a href="Bwindi.html">Bwindi National Park</a>
+                        <a href="travel info.html">Travel Info</a>
+                    </div>
+                </div>
+            </div>
             <a href="About.html">About</a>
-            <a href="#contact">contact</a>
+            <a href="#contact">Contact</a>
         </div>
+        
     </div>
-    <div class="hero" id="home">
+
+<div class="hero" id="home">
         <div class="slideshow"></div>
         <div class="hero-text">
             <h1>Explore The World</h1>
             <h2>Enjoy Every Moment</h2>
+           
+        <div class="hero-buttons">
+            <a href="blog.html" class="hero-btn">Blog</a>
+            <a href="things-to-do.html" class="hero-btn">Things To Do</a>
+        </div>
         </div>
     </div>
     <div class="popular" id="About">
@@ -55,51 +137,30 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="image-section"></div>
-        <div class="form-section" id="book">
-            <h2>Book Your Trip</h2>
-            <form>
-                <div class="form-group">
-                    <label for="destination">Destination</label>
-                    <input type="text" id="destination" placeholder="Enter destination" required>
-                </div>
-                <div class="form-group">
-                    <label for="date">Travel Date</label>
-                    <input type="date" id="date" required>
-                </div>
-                <div class="form-group">
-                    <label for="people">Number of Travelers</label>
-                    <select id="people" required>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4+">4+</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Book Now</button>
-                </div>
-            </form>
-        </div>
-    </div>
+   
+    
     <div class="destinations">
         <h2>Categories</h2>
-        <div class="destinations-container" id ="packages">
-            <div class="destination-card">
-                <img src="Images\safari lions.jpeg" alt="Beach">
+        <div class="destinations-container" id="packages">
+    
+            <a href="Kenya Safaris.html" class="destination-card">
+                <img src="Images/safari lions.jpeg" alt="Kenya Tour">
                 <p><b>KENYA</b> Tours</p>
-            </div>
-            <div class="destination-card">
-                <img src="Images\Rondreis Zanzibar.jpg" alt="B.Safari">
+            </a>
+    
+            <a href="Tanzania Safaris.html" class="destination-card">
+                <img src="Images/Rondreis Zanzibar.jpg" alt="Tanzania Tour">
                 <p><b>TANZANIA</b> Tours</p>
-            </div>
-            <div class="destination-card">
-                <img src="Images\Gorillas in Uganda.jpg" alt="Luxury Safari">
+            </a>
+    
+            <a href="Uganda.html" class="destination-card">
+                <img src="Images/Gorillas in Uganda.jpg" alt="Uganda Tour">
                 <p><b>UGANDA</b> Tours</p>
-            </div>
+            </a>
+    
         </div>
     </div>
+    
     <div class="popular">
         <h2>Popular Picks</h2>
         <div class="popular-container">
@@ -158,35 +219,7 @@
                 <iframe width="250" height="450" src="Images\WhatsApp Video 2025-02-08 at 6.24.34 PM.mp4" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="popular" id="About Us">
-            <h2>Blog</h2>
-            <div class="blog-container">
-                <div class="blog-item">
-                    <img src="Images\mara zebra.jpeg" alt="Blog Image">
-                    <div class="blog-text">
-                        <h3>Maasai Mara Game Reserve</h3>
-                        <p>Maasai Mara National Reserve is an area of preserved savannah wilderness in southwestern Kenya, along the Tanzanian border. Its animals include lions, cheetahs, elephants, zebras and hippos. Wildebeest traverse its plains during their annual migration.</p>
-                        <button class="learn-more">Learn More</button>
-                    </div>
-                </div>
-                <div class="blog-item">
-                    <img src="Images\Lake Elementaita Camping - 5 Best Campsites 2024.jpg" alt="Blog Image">
-                    <div class="blog-text">
-                        <h3>Lake Elementaita</h3>
-                        <p>The Great Rift Valley
-
-                            Elementaita is located in Kenya at approximately 120 kms from Nairobi City.
-                            
-                            Elementaita boasts of Lake Elementaita with shores which are beautifully decorated by Pelicans and Flamingos and is revered as one of the unsurpassed world’s largest ornithological spectacles.
-                            
-                            If you want to catch a glimpse of this beauty you can visit the few campsites and lodges that sit on vast acres of beautifully manicured gardens on the shores of this great Lake.
-                            
-                            The lush breathtaking well manicured gardens with expanse scenery is an ideal spot for excursions for family trips, individual travellers, couples getaways, weddings, group events and team buildings</p>
-                        <button class="learn-more">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="popular">
             <h2>Reviews</h2>
             <div class="reviews-container">
@@ -212,7 +245,8 @@
                     <h3>Quick Contacts</h3>
                     <p><a href="tel:+123456789" class="icon phone" title="Phone"><i class="fas fa-phone"></i></a>0723826055</p>
                     <p><a href="tel:+123456789" class="icon phone" title="Phone"><i class="fas fa-phone"></i></a>0707295355</p>
-                    <p><i class="icon">✉</i> </p>
+                    <p><i class="icon">✉</i> <a href="mailto:info@savannahexpedition.com">info@savannahexpedition.com</a></p>
+    
                 </div>
                 <div class="social-share">
                     <h3>Social Share</h3>
@@ -232,7 +266,7 @@
             </div>
         </footer>
         
-             
+       
     
 </body>
 </html>
